@@ -105,6 +105,16 @@ def build_golden(vendors):
     return golden
    
 
+def build_xref(vendors,golden):
+
+    xref= vendors[["VendorCode", "SurvivorCode"]].merge(golden[["VendorCode","VendorAccount"]],
+        left_on="SurvivorCode", right_on= "VendorCode", 
+        suffixes=("","_survivor"))
+    xref= xref[["VendorCode","SurvivorCode","VendorAccount"]]
+    xref= xref.rename(columns={"VendorCode": "LegacyVendorCode"})
+    xref["MatchType"] ="Self"
+    xref.loc[xref["LegacyVendorCode"] != xref["SurvivorCode"], "MatchType"]= "Merged by Tax ID"
+    return xref
 
 
 if __name__ == "__main__":
@@ -116,4 +126,7 @@ if __name__ == "__main__":
     print(pd.DataFrame(issues))
     golden = build_golden(vendors)
     print(len(vendors), "vendors ->", len(golden), "golden records")
-    print(golden[["VendorAccount", "VendorCode", "VendorName"]].head(10))
+    xref = build_xref(vendors, golden)
+    print(len(xref), "rows in xref")
+    print(xref[xref["LegacyVendorCode"].isin(["LV0002", "LV0041", "LV0009", "LV0042"])])
+    
