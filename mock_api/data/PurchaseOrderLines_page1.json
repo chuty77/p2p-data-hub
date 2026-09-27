@@ -1,0 +1,1006 @@
+{
+ "@odata.context": "http://localhost:8000/data/$metadata#PurchaseOrderLines",
+ "value": [
+  {
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 1,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0004",
+   "OrderedQuantity": 3,
+   "UnitPrice": 2393.86,
+   "OrderDate": "2025-04-25",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 2,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 13,
+   "UnitPrice": 156.48,
+   "OrderDate": "2025-04-25",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 3,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0018",
+   "OrderedQuantity": 21,
+   "UnitPrice": 2073.44,
+   "OrderDate": "2025-04-25",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25002",
+   "LineNumber": 1,
+   "VendorAccount": "LV0006",
+   "ItemNumber": "ITM-0021",
+   "OrderedQuantity": 50,
+   "UnitPrice": 82.54,
+   "OrderDate": "2026-05-13",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25003",
+   "LineNumber": 1,
+   "VendorAccount": "LV0035",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 43,
+   "UnitPrice": 266.94,
+   "OrderDate": "2025-07-25",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25003",
+   "LineNumber": 2,
+   "VendorAccount": "LV0035",
+   "ItemNumber": "ITM-0013",
+   "OrderedQuantity": 15,
+   "UnitPrice": 54.32,
+   "OrderDate": "2025-07-25",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25003",
+   "LineNumber": 3,
+   "VendorAccount": "LV0035",
+   "ItemNumber": "ITM-0008",
+   "OrderedQuantity": 16,
+   "UnitPrice": 238.63,
+   "OrderDate": "2025-07-25",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25004",
+   "LineNumber": 1,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0022",
+   "OrderedQuantity": 7,
+   "UnitPrice": 181.0,
+   "OrderDate": "2026-02-21",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25004",
+   "LineNumber": 2,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 47,
+   "UnitPrice": 193.67,
+   "OrderDate": "2026-02-21",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 1,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0016",
+   "OrderedQuantity": 7,
+   "UnitPrice": 45.9,
+   "OrderDate": "2025-03-19",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 2,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 11,
+   "UnitPrice": 259.82,
+   "OrderDate": "2025-03-19",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 3,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 43,
+   "UnitPrice": 201.13,
+   "OrderDate": "2025-03-19",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 4,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 48,
+   "UnitPrice": 264.11,
+   "OrderDate": "2025-03-19",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25006",
+   "LineNumber": 1,
+   "VendorAccount": "LV0033",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 39,
+   "UnitPrice": 1466.34,
+   "OrderDate": "2025-03-24",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25006",
+   "LineNumber": 2,
+   "VendorAccount": "LV0033",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 6,
+   "UnitPrice": 2682.85,
+   "OrderDate": "2025-03-24",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25007",
+   "LineNumber": 1,
+   "VendorAccount": "LV9999",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 30,
+   "UnitPrice": 164.07,
+   "OrderDate": "2025-11-20",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25008",
+   "LineNumber": 1,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0011",
+   "OrderedQuantity": 29,
+   "UnitPrice": 141.37,
+   "OrderDate": "2026-01-14",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25008",
+   "LineNumber": 2,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0013",
+   "OrderedQuantity": 9,
+   "UnitPrice": 52.57,
+   "OrderDate": "2026-01-14",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25008",
+   "LineNumber": 3,
+   "VendorAccount": "LV0016",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 33,
+   "UnitPrice": 1530.79,
+   "OrderDate": "2026-01-14",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 1,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0008",
+   "OrderedQuantity": 46,
+   "UnitPrice": 242.28,
+   "OrderDate": "2025-06-15",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 2,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0024",
+   "OrderedQuantity": 9,
+   "UnitPrice": 156.71,
+   "OrderDate": "2025-06-15",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 3,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0022",
+   "OrderedQuantity": 44,
+   "UnitPrice": 173.71,
+   "OrderDate": "2025-06-15",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 4,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0020",
+   "OrderedQuantity": 40,
+   "UnitPrice": 157.46,
+   "OrderDate": "2025-06-15",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 1,
+   "VendorAccount": "LV0002",
+   "ItemNumber": "ITM-0019",
+   "OrderedQuantity": 43,
+   "UnitPrice": 2877.46,
+   "OrderDate": "2025-07-03",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 2,
+   "VendorAccount": "LV0002",
+   "ItemNumber": "ITM-0015",
+   "OrderedQuantity": 23,
+   "UnitPrice": 52.76,
+   "OrderDate": "2025-07-03",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 3,
+   "VendorAccount": "LV0002",
+   "ItemNumber": "ITM-0015",
+   "OrderedQuantity": 23,
+   "UnitPrice": 54.57,
+   "OrderDate": "2025-07-03",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25011",
+   "LineNumber": 1,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0024",
+   "OrderedQuantity": 28,
+   "UnitPrice": 161.7,
+   "OrderDate": "2025-02-09",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25012",
+   "LineNumber": 1,
+   "VendorAccount": "LV0028",
+   "ItemNumber": "ITM-0010",
+   "OrderedQuantity": 28,
+   "UnitPrice": 129.68,
+   "OrderDate": "2025-01-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25012",
+   "LineNumber": 2,
+   "VendorAccount": "LV0028",
+   "ItemNumber": "ITM-0012",
+   "OrderedQuantity": 26,
+   "UnitPrice": 58.76,
+   "OrderDate": "2025-01-02",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25013",
+   "LineNumber": 1,
+   "VendorAccount": "LV0026",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 14,
+   "UnitPrice": 195.45,
+   "OrderDate": "2025-01-01",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25013",
+   "LineNumber": 2,
+   "VendorAccount": "LV0026",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 43,
+   "UnitPrice": 188.66,
+   "OrderDate": "2025-01-01",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25013",
+   "LineNumber": 3,
+   "VendorAccount": "LV0026",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 4,
+   "UnitPrice": 2695.5,
+   "OrderDate": "2025-01-01",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25014",
+   "LineNumber": 1,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 4,
+   "UnitPrice": 2487.75,
+   "OrderDate": "2025-01-06",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25015",
+   "LineNumber": 1,
+   "VendorAccount": "LV0008",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 43,
+   "UnitPrice": 162.61,
+   "OrderDate": "2026-04-13",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25015",
+   "LineNumber": 2,
+   "VendorAccount": "LV0008",
+   "ItemNumber": "ITM-0003",
+   "OrderedQuantity": 8,
+   "UnitPrice": 3076.36,
+   "OrderDate": "2026-04-13",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 1,
+   "VendorAccount": "LV0041",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 2,
+   "UnitPrice": 1885.25,
+   "OrderDate": "2025-09-02",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 2,
+   "VendorAccount": "LV0041",
+   "ItemNumber": "ITM-0020",
+   "OrderedQuantity": 9,
+   "UnitPrice": 148.27,
+   "OrderDate": "2025-09-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 3,
+   "VendorAccount": "LV0041",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 14,
+   "UnitPrice": 167.51,
+   "OrderDate": "2025-09-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 1,
+   "VendorAccount": "LV0023",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 4,
+   "UnitPrice": 1843.66,
+   "OrderDate": "2025-11-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 2,
+   "VendorAccount": "LV0023",
+   "ItemNumber": "ITM-0012",
+   "OrderedQuantity": 30,
+   "UnitPrice": 60.04,
+   "OrderDate": "2025-11-02",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 3,
+   "VendorAccount": "LV0023",
+   "ItemNumber": "ITM-0013",
+   "OrderedQuantity": 17,
+   "UnitPrice": 53.19,
+   "OrderDate": "2025-11-02",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 4,
+   "VendorAccount": "LV0023",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 17,
+   "UnitPrice": 271.81,
+   "OrderDate": "2025-11-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25018",
+   "LineNumber": 1,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 13,
+   "UnitPrice": 167.61,
+   "OrderDate": "2025-02-11",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25019",
+   "LineNumber": 1,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0021",
+   "OrderedQuantity": 39,
+   "UnitPrice": 89.73,
+   "OrderDate": "2026-01-13",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25019",
+   "LineNumber": 2,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0004",
+   "OrderedQuantity": 1,
+   "UnitPrice": 2508.14,
+   "OrderDate": "2026-01-13",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25020",
+   "LineNumber": 1,
+   "VendorAccount": "LV0020",
+   "ItemNumber": "ITM-0003",
+   "OrderedQuantity": 7,
+   "UnitPrice": 3006.62,
+   "OrderDate": "2025-05-04",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25021",
+   "LineNumber": 1,
+   "VendorAccount": "LV0024",
+   "ItemNumber": "ITM-0024",
+   "OrderedQuantity": 12,
+   "UnitPrice": 168.07,
+   "OrderDate": "2026-04-16",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25021",
+   "LineNumber": 2,
+   "VendorAccount": "LV0024",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 6,
+   "UnitPrice": 1910.75,
+   "OrderDate": "2026-04-16",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 1,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0004",
+   "OrderedQuantity": 3,
+   "UnitPrice": 2402.0,
+   "OrderDate": "2025-01-30",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 2,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0014",
+   "OrderedQuantity": 34,
+   "UnitPrice": 46.3,
+   "OrderDate": "2025-01-30",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 3,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0014",
+   "OrderedQuantity": 29,
+   "UnitPrice": 45.61,
+   "OrderDate": "2025-01-30",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 4,
+   "VendorAccount": "LV0022",
+   "ItemNumber": "ITM-0012",
+   "OrderedQuantity": 34,
+   "UnitPrice": 56.72,
+   "OrderDate": "2025-01-30",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25023",
+   "LineNumber": 1,
+   "VendorAccount": "LV0021",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 4,
+   "UnitPrice": 2632.43,
+   "OrderDate": "2025-05-03",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25023",
+   "LineNumber": 2,
+   "VendorAccount": "LV0021",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 24,
+   "UnitPrice": 1483.42,
+   "OrderDate": "2025-05-03",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25024",
+   "LineNumber": 1,
+   "VendorAccount": "LV0009",
+   "ItemNumber": "ITM-0014",
+   "OrderedQuantity": 37,
+   "UnitPrice": 43.35,
+   "OrderDate": "2026-05-18",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25025",
+   "LineNumber": 1,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 26,
+   "UnitPrice": 1531.29,
+   "OrderDate": "2026-05-05",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 1,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0008",
+   "OrderedQuantity": 29,
+   "UnitPrice": 239.09,
+   "OrderDate": "2025-08-20",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 2,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 17,
+   "UnitPrice": 267.22,
+   "OrderDate": "2025-08-20",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 3,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0011",
+   "OrderedQuantity": 15,
+   "UnitPrice": 133.9,
+   "OrderDate": "2025-08-20",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 4,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0011",
+   "OrderedQuantity": 43,
+   "UnitPrice": 140.96,
+   "OrderDate": "2025-08-20",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25027",
+   "LineNumber": 1,
+   "VendorAccount": "LV0005",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 39,
+   "UnitPrice": 1570.7,
+   "OrderDate": "2025-03-03",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25027",
+   "LineNumber": 2,
+   "VendorAccount": "LV0005",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 29,
+   "UnitPrice": 188.57,
+   "OrderDate": "2025-03-03",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 1,
+   "VendorAccount": "LV0037",
+   "ItemNumber": "ITM-0004",
+   "OrderedQuantity": 1,
+   "UnitPrice": 2468.27,
+   "OrderDate": "2025-01-22",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 2,
+   "VendorAccount": "LV0037",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 7,
+   "UnitPrice": 1870.71,
+   "OrderDate": "2025-01-22",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 3,
+   "VendorAccount": "LV0037",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 6,
+   "UnitPrice": 1829.52,
+   "OrderDate": "2025-01-22",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25029",
+   "LineNumber": 1,
+   "VendorAccount": "LV0017",
+   "ItemNumber": "ITM-0001",
+   "OrderedQuantity": 1,
+   "UnitPrice": 3420.62,
+   "OrderDate": "2025-11-28",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25030",
+   "LineNumber": 1,
+   "VendorAccount": "LV0004",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 3,
+   "UnitPrice": 2681.04,
+   "OrderDate": "2025-07-28",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25030",
+   "LineNumber": 2,
+   "VendorAccount": "LV0004",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 20,
+   "UnitPrice": 264.34,
+   "OrderDate": "2025-07-28",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25030",
+   "LineNumber": 3,
+   "VendorAccount": "LV0004",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 33,
+   "UnitPrice": 165.44,
+   "OrderDate": "2025-07-28",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25031",
+   "LineNumber": 1,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0023",
+   "OrderedQuantity": 18,
+   "UnitPrice": 166.53,
+   "OrderDate": "2026-06-05",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25031",
+   "LineNumber": 2,
+   "VendorAccount": "LV0039",
+   "ItemNumber": "ITM-0022",
+   "OrderedQuantity": 10,
+   "UnitPrice": 177.22,
+   "OrderDate": "2026-06-05",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 1,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0015",
+   "OrderedQuantity": 50,
+   "UnitPrice": 53.33,
+   "OrderDate": "2025-09-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 2,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0022",
+   "OrderedQuantity": 32,
+   "UnitPrice": 186.45,
+   "OrderDate": "2025-09-02",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 3,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 1,
+   "UnitPrice": 201.21,
+   "OrderDate": "2025-09-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 4,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0005",
+   "OrderedQuantity": 2,
+   "UnitPrice": 4133.78,
+   "OrderDate": "2025-09-02",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25033",
+   "LineNumber": 1,
+   "VendorAccount": "LV0019",
+   "ItemNumber": "ITM-0014",
+   "OrderedQuantity": 7,
+   "UnitPrice": 45.46,
+   "OrderDate": "2025-08-21",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25034",
+   "LineNumber": 1,
+   "VendorAccount": "LV0003",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 23,
+   "UnitPrice": 259.71,
+   "OrderDate": "2025-11-29",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25035",
+   "LineNumber": 1,
+   "VendorAccount": "LV0040",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 3,
+   "UnitPrice": 1796.4,
+   "OrderDate": "2026-01-27",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25035",
+   "LineNumber": 2,
+   "VendorAccount": "LV0040",
+   "ItemNumber": "ITM-0015",
+   "OrderedQuantity": 19,
+   "UnitPrice": 54.77,
+   "OrderDate": "2026-01-27",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 1,
+   "VendorAccount": "LV0020",
+   "ItemNumber": "ITM-0018",
+   "OrderedQuantity": 20,
+   "UnitPrice": 2013.37,
+   "OrderDate": "2026-03-11",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 2,
+   "VendorAccount": "LV0020",
+   "ItemNumber": "ITM-0018",
+   "OrderedQuantity": 2,
+   "UnitPrice": 2175.02,
+   "OrderDate": "2026-03-11",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 3,
+   "VendorAccount": "LV0020",
+   "ItemNumber": "ITM-0020",
+   "OrderedQuantity": 19,
+   "UnitPrice": 157.87,
+   "OrderDate": "2026-03-11",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25037",
+   "LineNumber": 1,
+   "VendorAccount": "LV0043",
+   "ItemNumber": "ITM-0008",
+   "OrderedQuantity": 20,
+   "UnitPrice": 251.08,
+   "OrderDate": "2025-05-21",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25038",
+   "LineNumber": 1,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0021",
+   "OrderedQuantity": 33,
+   "UnitPrice": 89.3,
+   "OrderDate": "2025-05-16",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25038",
+   "LineNumber": 2,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 48,
+   "UnitPrice": 272.74,
+   "OrderDate": "2025-05-16",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25038",
+   "LineNumber": 3,
+   "VendorAccount": "LV0013",
+   "ItemNumber": "ITM-0003",
+   "OrderedQuantity": 6,
+   "UnitPrice": 2837.61,
+   "OrderDate": "2025-05-16",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 1,
+   "VendorAccount": "LV0038",
+   "ItemNumber": "ITM-0009",
+   "OrderedQuantity": 44,
+   "UnitPrice": 256.0,
+   "OrderDate": "2026-01-26",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 2,
+   "VendorAccount": "LV0038",
+   "ItemNumber": "ITM-0002",
+   "OrderedQuantity": 5,
+   "UnitPrice": 2609.45,
+   "OrderDate": "2026-01-26",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 3,
+   "VendorAccount": "LV0038",
+   "ItemNumber": "ITM-0011",
+   "OrderedQuantity": 9,
+   "UnitPrice": 135.28,
+   "OrderDate": "2026-01-26",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 1,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-9999",
+   "OrderedQuantity": 18,
+   "UnitPrice": 2646.64,
+   "OrderDate": "2025-04-12",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 2,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-0011",
+   "OrderedQuantity": 7,
+   "UnitPrice": 143.38,
+   "OrderDate": "2025-04-12",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 3,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-0012",
+   "OrderedQuantity": 6,
+   "UnitPrice": 58.56,
+   "OrderDate": "2025-04-12",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 4,
+   "VendorAccount": "LV0042",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 14,
+   "UnitPrice": 1545.79,
+   "OrderDate": "2025-04-12",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 1,
+   "VendorAccount": "LV0010",
+   "ItemNumber": "ITM-0003",
+   "OrderedQuantity": 2,
+   "UnitPrice": 3006.48,
+   "OrderDate": "2025-05-14",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 2,
+   "VendorAccount": "LV0010",
+   "ItemNumber": "ITM-0007",
+   "OrderedQuantity": 4,
+   "UnitPrice": 189.48,
+   "OrderDate": "2025-05-14",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 3,
+   "VendorAccount": "LV0010",
+   "ItemNumber": "ITM-0013",
+   "OrderedQuantity": 33,
+   "UnitPrice": 52.34,
+   "OrderDate": "2025-05-14",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 1,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0017",
+   "OrderedQuantity": 32,
+   "UnitPrice": 1565.1,
+   "OrderDate": "2026-02-16",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 2,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0018",
+   "OrderedQuantity": 36,
+   "UnitPrice": 2119.85,
+   "OrderDate": "2026-02-16",
+   "Site": "US-MAR"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 3,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0006",
+   "OrderedQuantity": 4,
+   "UnitPrice": 1832.92,
+   "OrderDate": "2026-02-16",
+   "Site": "CR-HER"
+  },
+  {
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 4,
+   "VendorAccount": "LV0031",
+   "ItemNumber": "ITM-0021",
+   "OrderedQuantity": 24,
+   "UnitPrice": 89.64,
+   "OrderDate": "2026-02-16",
+   "Site": "US-MAR"
+  }
+ ],
+ "@odata.nextLink": "http://localhost:8000/data/PurchaseOrderLines_page2.json"
+}

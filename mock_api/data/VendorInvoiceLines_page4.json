@@ -1,0 +1,329 @@
+{
+ "@odata.context": "http://localhost:8000/data/$metadata#VendorInvoiceLines",
+ "value": [
+  {
+   "InvoiceNumber": "INV-00296",
+   "VendorAccount": "LV0019",
+   "PurchaseOrderNumber": "PO-25137",
+   "LineNumber": 2,
+   "InvoiceQuantity": 23,
+   "InvoiceUnitPrice": 252.29,
+   "InvoiceDate": "2026-02-17"
+  },
+  {
+   "InvoiceNumber": "INV-00297",
+   "VendorAccount": "LV0011",
+   "PurchaseOrderNumber": "PO-25138",
+   "LineNumber": 1,
+   "InvoiceQuantity": 15,
+   "InvoiceUnitPrice": 1578.87,
+   "InvoiceDate": "2025-05-30"
+  },
+  {
+   "InvoiceNumber": "INV-00298",
+   "VendorAccount": "LV0011",
+   "PurchaseOrderNumber": "PO-25138",
+   "LineNumber": 2,
+   "InvoiceQuantity": 31,
+   "InvoiceUnitPrice": 60.04,
+   "InvoiceDate": "2025-05-26"
+  },
+  {
+   "InvoiceNumber": "INV-00298",
+   "VendorAccount": "LV0011",
+   "PurchaseOrderNumber": "PO-25138",
+   "LineNumber": 2,
+   "InvoiceQuantity": 31,
+   "InvoiceUnitPrice": 60.04,
+   "InvoiceDate": "2025-05-26"
+  },
+  {
+   "InvoiceNumber": "INV-00299",
+   "VendorAccount": "LV0011",
+   "PurchaseOrderNumber": "PO-25138",
+   "LineNumber": 3,
+   "InvoiceQuantity": 4,
+   "InvoiceUnitPrice": 2519.92,
+   "InvoiceDate": "2025-05-06"
+  },
+  {
+   "InvoiceNumber": "INV-00300",
+   "VendorAccount": "LV0011",
+   "PurchaseOrderNumber": "PO-25138",
+   "LineNumber": 4,
+   "InvoiceQuantity": 10,
+   "InvoiceUnitPrice": 158.84,
+   "InvoiceDate": "2025-05-10"
+  },
+  {
+   "InvoiceNumber": "INV-00301",
+   "VendorAccount": "LV0005",
+   "PurchaseOrderNumber": "PO-25139",
+   "LineNumber": 1,
+   "InvoiceQuantity": 6,
+   "InvoiceUnitPrice": 3097.94,
+   "InvoiceDate": "2026-07-02"
+  },
+  {
+   "InvoiceNumber": "INV-00302",
+   "VendorAccount": "LV0005",
+   "PurchaseOrderNumber": "PO-25139",
+   "LineNumber": 3,
+   "InvoiceQuantity": 7,
+   "InvoiceUnitPrice": 57.06,
+   "InvoiceDate": "2026-06-03"
+  },
+  {
+   "InvoiceNumber": "INV-00303",
+   "VendorAccount": "LV0033",
+   "PurchaseOrderNumber": "PO-25140",
+   "LineNumber": 1,
+   "InvoiceQuantity": 6,
+   "InvoiceUnitPrice": 1905.88,
+   "InvoiceDate": "2025-09-03"
+  },
+  {
+   "InvoiceNumber": "INV-00304",
+   "VendorAccount": "LV0033",
+   "PurchaseOrderNumber": "PO-25140",
+   "LineNumber": 2,
+   "InvoiceQuantity": 8,
+   "InvoiceUnitPrice": 3237.55,
+   "InvoiceDate": "2025-09-01"
+  },
+  {
+   "InvoiceNumber": "INV-00305",
+   "VendorAccount": "LV0033",
+   "PurchaseOrderNumber": "PO-25140",
+   "LineNumber": 3,
+   "InvoiceQuantity": 45,
+   "InvoiceUnitPrice": 82.37,
+   "InvoiceDate": "2025-09-04"
+  },
+  {
+   "InvoiceNumber": "INV-00306",
+   "VendorAccount": "LV0033",
+   "PurchaseOrderNumber": "PO-25140",
+   "LineNumber": 4,
+   "InvoiceQuantity": 4,
+   "InvoiceUnitPrice": 2759.42,
+   "InvoiceDate": "2025-08-22"
+  },
+  {
+   "InvoiceNumber": "INV-00307",
+   "VendorAccount": "LV0029",
+   "PurchaseOrderNumber": "PO-25141",
+   "LineNumber": 1,
+   "InvoiceQuantity": 1,
+   "InvoiceUnitPrice": 2578.89,
+   "InvoiceDate": "2026-05-25"
+  },
+  {
+   "InvoiceNumber": "INV-00308",
+   "VendorAccount": "LV0029",
+   "PurchaseOrderNumber": "PO-25141",
+   "LineNumber": 2,
+   "InvoiceQuantity": 22,
+   "InvoiceUnitPrice": 54.23,
+   "InvoiceDate": "2026-05-19"
+  },
+  {
+   "InvoiceNumber": "INV-00309",
+   "VendorAccount": "LV0016",
+   "PurchaseOrderNumber": "PO-25142",
+   "LineNumber": 1,
+   "InvoiceQuantity": 9,
+   "InvoiceUnitPrice": 134.87,
+   "InvoiceDate": "2025-11-28"
+  },
+  {
+   "InvoiceNumber": "INV-00310",
+   "VendorAccount": "LV0016",
+   "PurchaseOrderNumber": "PO-25142",
+   "LineNumber": 2,
+   "InvoiceQuantity": 41,
+   "InvoiceUnitPrice": 2697.9,
+   "InvoiceDate": "2025-11-03"
+  },
+  {
+   "InvoiceNumber": "INV-00311",
+   "VendorAccount": "LV0016",
+   "PurchaseOrderNumber": "PO-25142",
+   "LineNumber": 3,
+   "InvoiceQuantity": 33,
+   "InvoiceUnitPrice": 2788.18,
+   "InvoiceDate": "2025-11-15"
+  },
+  {
+   "InvoiceNumber": "INV-00312",
+   "VendorAccount": "LV0016",
+   "PurchaseOrderNumber": "PO-25142",
+   "LineNumber": 4,
+   "InvoiceQuantity": 19,
+   "InvoiceUnitPrice": 49.87,
+   "InvoiceDate": "2025-11-16"
+  },
+  {
+   "InvoiceNumber": "INV-00313",
+   "VendorAccount": "LV0013",
+   "PurchaseOrderNumber": "PO-25143",
+   "LineNumber": 1,
+   "InvoiceQuantity": 5,
+   "InvoiceUnitPrice": 1780.57,
+   "InvoiceDate": "2025-10-30"
+  },
+  {
+   "InvoiceNumber": "INV-00314",
+   "VendorAccount": "LV0013",
+   "PurchaseOrderNumber": "PO-25143",
+   "LineNumber": 2,
+   "InvoiceQuantity": 40,
+   "InvoiceUnitPrice": 49.83,
+   "InvoiceDate": "2025-11-23"
+  },
+  {
+   "InvoiceNumber": "INV-00315",
+   "VendorAccount": "LV0019",
+   "PurchaseOrderNumber": "PO-25144",
+   "LineNumber": 1,
+   "InvoiceQuantity": 27,
+   "InvoiceUnitPrice": 50.25,
+   "InvoiceDate": "2025-03-08"
+  },
+  {
+   "InvoiceNumber": "INV-00316",
+   "VendorAccount": "LV0019",
+   "PurchaseOrderNumber": "PO-25144",
+   "LineNumber": 2,
+   "InvoiceQuantity": 15,
+   "InvoiceUnitPrice": 170.99,
+   "InvoiceDate": "2025-04-10"
+  },
+  {
+   "InvoiceNumber": "INV-00317",
+   "VendorAccount": "LV0019",
+   "PurchaseOrderNumber": "PO-25144",
+   "LineNumber": 3,
+   "InvoiceQuantity": 15,
+   "InvoiceUnitPrice": 254.52,
+   "InvoiceDate": "2025-03-13"
+  },
+  {
+   "InvoiceNumber": "INV-00318",
+   "VendorAccount": "LV0019",
+   "PurchaseOrderNumber": "PO-25144",
+   "LineNumber": 4,
+   "InvoiceQuantity": 3,
+   "InvoiceUnitPrice": 2483.9,
+   "InvoiceDate": "2025-03-27"
+  },
+  {
+   "InvoiceNumber": "INV-00319",
+   "VendorAccount": "LV0039",
+   "PurchaseOrderNumber": "PO-25145",
+   "LineNumber": 1,
+   "InvoiceQuantity": 6,
+   "InvoiceUnitPrice": 2832.45,
+   "InvoiceDate": "2025-03-13"
+  },
+  {
+   "InvoiceNumber": "INV-00320",
+   "VendorAccount": "LV0039",
+   "PurchaseOrderNumber": "PO-25145",
+   "LineNumber": 2,
+   "InvoiceQuantity": 26,
+   "InvoiceUnitPrice": 188.8,
+   "InvoiceDate": "2025-04-02"
+  },
+  {
+   "InvoiceNumber": "INV-00321",
+   "VendorAccount": "LV0021",
+   "PurchaseOrderNumber": "PO-25146",
+   "LineNumber": 1,
+   "InvoiceQuantity": 17,
+   "InvoiceUnitPrice": 178.89,
+   "InvoiceDate": "2026-03-18"
+  },
+  {
+   "InvoiceNumber": "INV-00322",
+   "VendorAccount": "LV0032",
+   "PurchaseOrderNumber": "PO-25147",
+   "LineNumber": 1,
+   "InvoiceQuantity": 10,
+   "InvoiceUnitPrice": 2780.24,
+   "InvoiceDate": "2025-03-29"
+  },
+  {
+   "InvoiceNumber": "INV-00323",
+   "VendorAccount": "LV0032",
+   "PurchaseOrderNumber": "PO-25147",
+   "LineNumber": 2,
+   "InvoiceQuantity": 44,
+   "InvoiceUnitPrice": 135.76,
+   "InvoiceDate": "2025-03-30"
+  },
+  {
+   "InvoiceNumber": "INV-00324",
+   "VendorAccount": "LV0032",
+   "PurchaseOrderNumber": "PO-25147",
+   "LineNumber": 3,
+   "InvoiceQuantity": 8,
+   "InvoiceUnitPrice": 3023.0,
+   "InvoiceDate": "2025-02-24"
+  },
+  {
+   "InvoiceNumber": "INV-00325",
+   "VendorAccount": "LV0015",
+   "PurchaseOrderNumber": "PO-25148",
+   "LineNumber": 1,
+   "InvoiceQuantity": 8,
+   "InvoiceUnitPrice": 3411.38,
+   "InvoiceDate": "2025-11-01"
+  },
+  {
+   "InvoiceNumber": "INV-00326",
+   "VendorAccount": "LV0015",
+   "PurchaseOrderNumber": "PO-25148",
+   "LineNumber": 2,
+   "InvoiceQuantity": 49,
+   "InvoiceUnitPrice": 166.1,
+   "InvoiceDate": "2025-10-06"
+  },
+  {
+   "InvoiceNumber": "INV-00327",
+   "VendorAccount": "LV0015",
+   "PurchaseOrderNumber": "PO-25148",
+   "LineNumber": 3,
+   "InvoiceQuantity": 2,
+   "InvoiceUnitPrice": 2514.91,
+   "InvoiceDate": "2025-10-01"
+  },
+  {
+   "InvoiceNumber": "INV-00328",
+   "VendorAccount": "LV0001",
+   "PurchaseOrderNumber": "PO-25149",
+   "LineNumber": 1,
+   "InvoiceQuantity": 1,
+   "InvoiceUnitPrice": 2796.57,
+   "InvoiceDate": "2025-06-19"
+  },
+  {
+   "InvoiceNumber": "INV-00329",
+   "VendorAccount": "LV0014",
+   "PurchaseOrderNumber": "PO-25150",
+   "LineNumber": 1,
+   "InvoiceQuantity": 1,
+   "InvoiceUnitPrice": 2337.84,
+   "InvoiceDate": "2026-03-16"
+  },
+  {
+   "InvoiceNumber": "INV-00330",
+   "VendorAccount": "LV0014",
+   "PurchaseOrderNumber": "PO-25150",
+   "LineNumber": 2,
+   "InvoiceQuantity": 30,
+   "InvoiceUnitPrice": 247.57,
+   "InvoiceDate": "2026-03-18"
+  }
+ ]
+}

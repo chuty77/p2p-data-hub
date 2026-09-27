@@ -1,0 +1,706 @@
+{
+ "@odata.context": "http://localhost:8000/data/$metadata#ProductReceiptLines",
+ "value": [
+  {
+   "ReceiptNumber": "PR-00001",
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 1,
+   "ReceivedQuantity": 3,
+   "ReceiptDate": "2025-05-11"
+  },
+  {
+   "ReceiptNumber": "PR-00002",
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 2,
+   "ReceivedQuantity": 13,
+   "ReceiptDate": "2025-06-02"
+  },
+  {
+   "ReceiptNumber": "PR-00003",
+   "PurchaseOrderNumber": "PO-25001",
+   "LineNumber": 3,
+   "ReceivedQuantity": 21,
+   "ReceiptDate": "2025-05-19"
+  },
+  {
+   "ReceiptNumber": "PR-00004",
+   "PurchaseOrderNumber": "PO-25002",
+   "LineNumber": 1,
+   "ReceivedQuantity": 50,
+   "ReceiptDate": "2026-05-28"
+  },
+  {
+   "ReceiptNumber": "PR-00005",
+   "PurchaseOrderNumber": "PO-25003",
+   "LineNumber": 1,
+   "ReceivedQuantity": 43,
+   "ReceiptDate": "2025-08-27"
+  },
+  {
+   "ReceiptNumber": "PR-00006",
+   "PurchaseOrderNumber": "PO-25003",
+   "LineNumber": 3,
+   "ReceivedQuantity": 16,
+   "ReceiptDate": "2025-08-07"
+  },
+  {
+   "ReceiptNumber": "PR-00007",
+   "PurchaseOrderNumber": "PO-25004",
+   "LineNumber": 1,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2026-03-27"
+  },
+  {
+   "ReceiptNumber": "PR-00008",
+   "PurchaseOrderNumber": "PO-25004",
+   "LineNumber": 2,
+   "ReceivedQuantity": 47,
+   "ReceiptDate": "2026-03-10"
+  },
+  {
+   "ReceiptNumber": "PR-00009",
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 1,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2025-04-08"
+  },
+  {
+   "ReceiptNumber": "PR-00010",
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 2,
+   "ReceivedQuantity": 11,
+   "ReceiptDate": "2025-04-22"
+  },
+  {
+   "ReceiptNumber": "PR-00011",
+   "PurchaseOrderNumber": "PO-25005",
+   "LineNumber": 3,
+   "ReceivedQuantity": 21,
+   "ReceiptDate": "2025-04-06"
+  },
+  {
+   "ReceiptNumber": "PR-00012",
+   "PurchaseOrderNumber": "PO-25006",
+   "LineNumber": 1,
+   "ReceivedQuantity": 39,
+   "ReceiptDate": "2025-04-13"
+  },
+  {
+   "ReceiptNumber": "PR-00013",
+   "PurchaseOrderNumber": "PO-25006",
+   "LineNumber": 2,
+   "ReceivedQuantity": 6,
+   "ReceiptDate": "2025-04-18"
+  },
+  {
+   "ReceiptNumber": "PR-00014",
+   "PurchaseOrderNumber": "PO-25008",
+   "LineNumber": 1,
+   "ReceivedQuantity": 29,
+   "ReceiptDate": "2026-02-21"
+  },
+  {
+   "ReceiptNumber": "PR-00015",
+   "PurchaseOrderNumber": "PO-25008",
+   "LineNumber": 2,
+   "ReceivedQuantity": 9,
+   "ReceiptDate": "2026-01-28"
+  },
+  {
+   "ReceiptNumber": "PR-00016",
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 1,
+   "ReceivedQuantity": 23,
+   "ReceiptDate": "2025-06-29"
+  },
+  {
+   "ReceiptNumber": "PR-00017",
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 2,
+   "ReceivedQuantity": 9,
+   "ReceiptDate": "2025-06-22"
+  },
+  {
+   "ReceiptNumber": "PR-00018",
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 3,
+   "ReceivedQuantity": 44,
+   "ReceiptDate": "2025-07-25"
+  },
+  {
+   "ReceiptNumber": "PR-00019",
+   "PurchaseOrderNumber": "PO-25009",
+   "LineNumber": 4,
+   "ReceivedQuantity": 40,
+   "ReceiptDate": "2025-07-01"
+  },
+  {
+   "ReceiptNumber": "PR-00020",
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 1,
+   "ReceivedQuantity": 43,
+   "ReceiptDate": "2025-07-14"
+  },
+  {
+   "ReceiptNumber": "PR-00021",
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 2,
+   "ReceivedQuantity": 23,
+   "ReceiptDate": "2025-07-20"
+  },
+  {
+   "ReceiptNumber": "PR-00022",
+   "PurchaseOrderNumber": "PO-25010",
+   "LineNumber": 3,
+   "ReceivedQuantity": 23,
+   "ReceiptDate": "2025-08-11"
+  },
+  {
+   "ReceiptNumber": "PR-00023",
+   "PurchaseOrderNumber": "PO-25011",
+   "LineNumber": 1,
+   "ReceivedQuantity": 28,
+   "ReceiptDate": "2025-03-18"
+  },
+  {
+   "ReceiptNumber": "PR-00024",
+   "PurchaseOrderNumber": "PO-25012",
+   "LineNumber": 1,
+   "ReceivedQuantity": 28,
+   "ReceiptDate": "2025-01-14"
+  },
+  {
+   "ReceiptNumber": "PR-00025",
+   "PurchaseOrderNumber": "PO-25012",
+   "LineNumber": 2,
+   "ReceivedQuantity": 13,
+   "ReceiptDate": "2025-01-31"
+  },
+  {
+   "ReceiptNumber": "PR-00026",
+   "PurchaseOrderNumber": "PO-25013",
+   "LineNumber": 1,
+   "ReceivedQuantity": 14,
+   "ReceiptDate": "2025-02-03"
+  },
+  {
+   "ReceiptNumber": "PR-00027",
+   "PurchaseOrderNumber": "PO-25013",
+   "LineNumber": 3,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2025-01-18"
+  },
+  {
+   "ReceiptNumber": "PR-00028",
+   "PurchaseOrderNumber": "PO-25015",
+   "LineNumber": 1,
+   "ReceivedQuantity": 43,
+   "ReceiptDate": "2026-05-16"
+  },
+  {
+   "ReceiptNumber": "PR-00029",
+   "PurchaseOrderNumber": "PO-25015",
+   "LineNumber": 2,
+   "ReceivedQuantity": 8,
+   "ReceiptDate": "2026-05-03"
+  },
+  {
+   "ReceiptNumber": "PR-00030",
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 1,
+   "ReceivedQuantity": 2,
+   "ReceiptDate": "2025-09-27"
+  },
+  {
+   "ReceiptNumber": "PR-00031",
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 2,
+   "ReceivedQuantity": 9,
+   "ReceiptDate": "2025-09-20"
+  },
+  {
+   "ReceiptNumber": "PR-00032",
+   "PurchaseOrderNumber": "PO-25016",
+   "LineNumber": 3,
+   "ReceivedQuantity": 14,
+   "ReceiptDate": "2025-09-08"
+  },
+  {
+   "ReceiptNumber": "PR-00033",
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 1,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2025-11-08"
+  },
+  {
+   "ReceiptNumber": "PR-00034",
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 2,
+   "ReceivedQuantity": 30,
+   "ReceiptDate": "2025-11-08"
+  },
+  {
+   "ReceiptNumber": "PR-00035",
+   "PurchaseOrderNumber": "PO-25017",
+   "LineNumber": 3,
+   "ReceivedQuantity": 17,
+   "ReceiptDate": "2025-11-28"
+  },
+  {
+   "ReceiptNumber": "PR-00036",
+   "PurchaseOrderNumber": "PO-25018",
+   "LineNumber": 1,
+   "ReceivedQuantity": 13,
+   "ReceiptDate": "2025-03-18"
+  },
+  {
+   "ReceiptNumber": "PR-00037",
+   "PurchaseOrderNumber": "PO-25019",
+   "LineNumber": 1,
+   "ReceivedQuantity": 39,
+   "ReceiptDate": "2026-01-28"
+  },
+  {
+   "ReceiptNumber": "PR-00038",
+   "PurchaseOrderNumber": "PO-25019",
+   "LineNumber": 2,
+   "ReceivedQuantity": 1,
+   "ReceiptDate": "2026-01-30"
+  },
+  {
+   "ReceiptNumber": "PR-00039",
+   "PurchaseOrderNumber": "PO-25020",
+   "LineNumber": 1,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2025-05-30"
+  },
+  {
+   "ReceiptNumber": "PR-00040",
+   "PurchaseOrderNumber": "PO-25021",
+   "LineNumber": 1,
+   "ReceivedQuantity": 12,
+   "ReceiptDate": "2026-05-25"
+  },
+  {
+   "ReceiptNumber": "PR-00041",
+   "PurchaseOrderNumber": "PO-25021",
+   "LineNumber": 2,
+   "ReceivedQuantity": 6,
+   "ReceiptDate": "2026-05-19"
+  },
+  {
+   "ReceiptNumber": "PR-00042",
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 1,
+   "ReceivedQuantity": 3,
+   "ReceiptDate": "2025-02-25"
+  },
+  {
+   "ReceiptNumber": "PR-00043",
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 2,
+   "ReceivedQuantity": 34,
+   "ReceiptDate": "2025-03-02"
+  },
+  {
+   "ReceiptNumber": "PR-00044",
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 3,
+   "ReceivedQuantity": 29,
+   "ReceiptDate": "2025-03-01"
+  },
+  {
+   "ReceiptNumber": "PR-00045",
+   "PurchaseOrderNumber": "PO-25022",
+   "LineNumber": 4,
+   "ReceivedQuantity": 34,
+   "ReceiptDate": "2025-03-05"
+  },
+  {
+   "ReceiptNumber": "PR-00046",
+   "PurchaseOrderNumber": "PO-25023",
+   "LineNumber": 1,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2025-06-10"
+  },
+  {
+   "ReceiptNumber": "PR-00047",
+   "PurchaseOrderNumber": "PO-25023",
+   "LineNumber": 2,
+   "ReceivedQuantity": 24,
+   "ReceiptDate": "2025-05-16"
+  },
+  {
+   "ReceiptNumber": "PR-00048",
+   "PurchaseOrderNumber": "PO-25024",
+   "LineNumber": 1,
+   "ReceivedQuantity": 37,
+   "ReceiptDate": "2026-06-03"
+  },
+  {
+   "ReceiptNumber": "PR-00049",
+   "PurchaseOrderNumber": "PO-25025",
+   "LineNumber": 1,
+   "ReceivedQuantity": 13,
+   "ReceiptDate": "2026-05-29"
+  },
+  {
+   "ReceiptNumber": "PR-00050",
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 1,
+   "ReceivedQuantity": 29,
+   "ReceiptDate": "2025-08-28"
+  },
+  {
+   "ReceiptNumber": "PR-00051",
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 2,
+   "ReceivedQuantity": 17,
+   "ReceiptDate": "2025-09-29"
+  },
+  {
+   "ReceiptNumber": "PR-00052",
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 3,
+   "ReceivedQuantity": 15,
+   "ReceiptDate": "2025-09-23"
+  },
+  {
+   "ReceiptNumber": "PR-00053",
+   "PurchaseOrderNumber": "PO-25026",
+   "LineNumber": 4,
+   "ReceivedQuantity": 43,
+   "ReceiptDate": "2025-09-28"
+  },
+  {
+   "ReceiptNumber": "PR-00054",
+   "PurchaseOrderNumber": "PO-25027",
+   "LineNumber": 1,
+   "ReceivedQuantity": 39,
+   "ReceiptDate": "2025-04-06"
+  },
+  {
+   "ReceiptNumber": "PR-00055",
+   "PurchaseOrderNumber": "PO-25027",
+   "LineNumber": 2,
+   "ReceivedQuantity": 29,
+   "ReceiptDate": "2025-03-28"
+  },
+  {
+   "ReceiptNumber": "PR-00056",
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 1,
+   "ReceivedQuantity": 1,
+   "ReceiptDate": "2025-02-24"
+  },
+  {
+   "ReceiptNumber": "PR-00057",
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 2,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2025-02-26"
+  },
+  {
+   "ReceiptNumber": "PR-00058",
+   "PurchaseOrderNumber": "PO-25028",
+   "LineNumber": 3,
+   "ReceivedQuantity": 6,
+   "ReceiptDate": "2025-02-21"
+  },
+  {
+   "ReceiptNumber": "PR-00059",
+   "PurchaseOrderNumber": "PO-25029",
+   "LineNumber": 1,
+   "ReceivedQuantity": 1,
+   "ReceiptDate": "2025-12-15"
+  },
+  {
+   "ReceiptNumber": "PR-00060",
+   "PurchaseOrderNumber": "PO-25030",
+   "LineNumber": 1,
+   "ReceivedQuantity": 3,
+   "ReceiptDate": "2025-09-02"
+  },
+  {
+   "ReceiptNumber": "PR-00061",
+   "PurchaseOrderNumber": "PO-25030",
+   "LineNumber": 3,
+   "ReceivedQuantity": 33,
+   "ReceiptDate": "2025-09-01"
+  },
+  {
+   "ReceiptNumber": "PR-00062",
+   "PurchaseOrderNumber": "PO-25031",
+   "LineNumber": 1,
+   "ReceivedQuantity": 18,
+   "ReceiptDate": "2026-07-12"
+  },
+  {
+   "ReceiptNumber": "PR-00063",
+   "PurchaseOrderNumber": "PO-25031",
+   "LineNumber": 2,
+   "ReceivedQuantity": 10,
+   "ReceiptDate": "2026-07-15"
+  },
+  {
+   "ReceiptNumber": "PR-00064",
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 1,
+   "ReceivedQuantity": 50,
+   "ReceiptDate": "2025-10-01"
+  },
+  {
+   "ReceiptNumber": "PR-00065",
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 2,
+   "ReceivedQuantity": 32,
+   "ReceiptDate": "2025-09-28"
+  },
+  {
+   "ReceiptNumber": "PR-00066",
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 3,
+   "ReceivedQuantity": 1,
+   "ReceiptDate": "2025-09-16"
+  },
+  {
+   "ReceiptNumber": "PR-00067",
+   "PurchaseOrderNumber": "PO-25032",
+   "LineNumber": 4,
+   "ReceivedQuantity": 2,
+   "ReceiptDate": "2025-10-08"
+  },
+  {
+   "ReceiptNumber": "PR-00068",
+   "PurchaseOrderNumber": "PO-25033",
+   "LineNumber": 1,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2025-09-14"
+  },
+  {
+   "ReceiptNumber": "PR-00069",
+   "PurchaseOrderNumber": "PO-25034",
+   "LineNumber": 1,
+   "ReceivedQuantity": 23,
+   "ReceiptDate": "2025-12-30"
+  },
+  {
+   "ReceiptNumber": "PR-00070",
+   "PurchaseOrderNumber": "PO-25035",
+   "LineNumber": 1,
+   "ReceivedQuantity": 3,
+   "ReceiptDate": "2026-02-01"
+  },
+  {
+   "ReceiptNumber": "PR-00071",
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 1,
+   "ReceivedQuantity": 20,
+   "ReceiptDate": "2026-03-22"
+  },
+  {
+   "ReceiptNumber": "PR-00072",
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 2,
+   "ReceivedQuantity": 2,
+   "ReceiptDate": "2026-03-19"
+  },
+  {
+   "ReceiptNumber": "PR-00073",
+   "PurchaseOrderNumber": "PO-25036",
+   "LineNumber": 3,
+   "ReceivedQuantity": 19,
+   "ReceiptDate": "2026-04-07"
+  },
+  {
+   "ReceiptNumber": "PR-00074",
+   "PurchaseOrderNumber": "PO-25037",
+   "LineNumber": 1,
+   "ReceivedQuantity": 20,
+   "ReceiptDate": "2025-06-03"
+  },
+  {
+   "ReceiptNumber": "PR-00075",
+   "PurchaseOrderNumber": "PO-25038",
+   "LineNumber": 1,
+   "ReceivedQuantity": 33,
+   "ReceiptDate": "2025-06-20"
+  },
+  {
+   "ReceiptNumber": "PR-00076",
+   "PurchaseOrderNumber": "PO-25038",
+   "LineNumber": 2,
+   "ReceivedQuantity": 48,
+   "ReceiptDate": "2025-05-25"
+  },
+  {
+   "ReceiptNumber": "PR-00077",
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 1,
+   "ReceivedQuantity": 44,
+   "ReceiptDate": "2026-03-07"
+  },
+  {
+   "ReceiptNumber": "PR-00078",
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 2,
+   "ReceivedQuantity": 2,
+   "ReceiptDate": "2026-02-02"
+  },
+  {
+   "ReceiptNumber": "PR-00079",
+   "PurchaseOrderNumber": "PO-25039",
+   "LineNumber": 3,
+   "ReceivedQuantity": 9,
+   "ReceiptDate": "2026-03-06"
+  },
+  {
+   "ReceiptNumber": "PR-00080",
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 1,
+   "ReceivedQuantity": 18,
+   "ReceiptDate": "2025-05-15"
+  },
+  {
+   "ReceiptNumber": "PR-00081",
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 2,
+   "ReceivedQuantity": 7,
+   "ReceiptDate": "2025-05-09"
+  },
+  {
+   "ReceiptNumber": "PR-00082",
+   "PurchaseOrderNumber": "PO-25040",
+   "LineNumber": 4,
+   "ReceivedQuantity": 14,
+   "ReceiptDate": "2025-04-26"
+  },
+  {
+   "ReceiptNumber": "PR-00083",
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 1,
+   "ReceivedQuantity": 1,
+   "ReceiptDate": "2025-06-10"
+  },
+  {
+   "ReceiptNumber": "PR-00084",
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 2,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2025-05-23"
+  },
+  {
+   "ReceiptNumber": "PR-00085",
+   "PurchaseOrderNumber": "PO-25041",
+   "LineNumber": 3,
+   "ReceivedQuantity": 33,
+   "ReceiptDate": "2025-06-21"
+  },
+  {
+   "ReceiptNumber": "PR-00086",
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 2,
+   "ReceivedQuantity": 36,
+   "ReceiptDate": "2026-03-26"
+  },
+  {
+   "ReceiptNumber": "PR-00087",
+   "PurchaseOrderNumber": "PO-25042",
+   "LineNumber": 3,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2026-03-22"
+  },
+  {
+   "ReceiptNumber": "PR-00088",
+   "PurchaseOrderNumber": "PO-25043",
+   "LineNumber": 1,
+   "ReceivedQuantity": 27,
+   "ReceiptDate": "2025-03-11"
+  },
+  {
+   "ReceiptNumber": "PR-00089",
+   "PurchaseOrderNumber": "PO-25043",
+   "LineNumber": 2,
+   "ReceivedQuantity": 10,
+   "ReceiptDate": "2025-04-07"
+  },
+  {
+   "ReceiptNumber": "PR-00090",
+   "PurchaseOrderNumber": "PO-25043",
+   "LineNumber": 3,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2025-03-25"
+  },
+  {
+   "ReceiptNumber": "PR-00091",
+   "PurchaseOrderNumber": "PO-25045",
+   "LineNumber": 1,
+   "ReceivedQuantity": 47,
+   "ReceiptDate": "2025-06-25"
+  },
+  {
+   "ReceiptNumber": "PR-00092",
+   "PurchaseOrderNumber": "PO-25045",
+   "LineNumber": 2,
+   "ReceivedQuantity": 43,
+   "ReceiptDate": "2025-06-29"
+  },
+  {
+   "ReceiptNumber": "PR-00093",
+   "PurchaseOrderNumber": "PO-25046",
+   "LineNumber": 1,
+   "ReceivedQuantity": 14,
+   "ReceiptDate": "2025-01-20"
+  },
+  {
+   "ReceiptNumber": "PR-00094",
+   "PurchaseOrderNumber": "PO-25047",
+   "LineNumber": 1,
+   "ReceivedQuantity": 19,
+   "ReceiptDate": "2026-03-31"
+  },
+  {
+   "ReceiptNumber": "PR-00095",
+   "PurchaseOrderNumber": "PO-25047",
+   "LineNumber": 2,
+   "ReceivedQuantity": 6,
+   "ReceiptDate": "2026-04-15"
+  },
+  {
+   "ReceiptNumber": "PR-00096",
+   "PurchaseOrderNumber": "PO-25047",
+   "LineNumber": 3,
+   "ReceivedQuantity": 22,
+   "ReceiptDate": "2026-03-28"
+  },
+  {
+   "ReceiptNumber": "PR-00097",
+   "PurchaseOrderNumber": "PO-25047",
+   "LineNumber": 4,
+   "ReceivedQuantity": 8,
+   "ReceiptDate": "2026-03-30"
+  },
+  {
+   "ReceiptNumber": "PR-00098",
+   "PurchaseOrderNumber": "PO-25048",
+   "LineNumber": 1,
+   "ReceivedQuantity": 8,
+   "ReceiptDate": "2026-06-15"
+  },
+  {
+   "ReceiptNumber": "PR-00099",
+   "PurchaseOrderNumber": "PO-25048",
+   "LineNumber": 2,
+   "ReceivedQuantity": 4,
+   "ReceiptDate": "2026-06-23"
+  },
+  {
+   "ReceiptNumber": "PR-00100",
+   "PurchaseOrderNumber": "PO-25048",
+   "LineNumber": 3,
+   "ReceivedQuantity": 40,
+   "ReceiptDate": "2026-06-30"
+  }
+ ],
+ "@odata.nextLink": "http://localhost:8000/data/ProductReceiptLines_page2.json"
+}

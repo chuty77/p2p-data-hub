@@ -1,0 +1,44 @@
+VendorCode,VendorName,TaxID,Country,Currency,PaymentTerms,Email,Status,CreatedDate
+LV0001,Pacific Composites S.A.,CR-95822412,CR,CRC,Net30,ap@pacific.com,Active,2015-04-13
+LV0002,AeroTech Fasteners LLC,US-46913810,US,USD,Net30,ap@aerotech.com,Active,2017-07-03
+LV0003,Central Avionics Supply,US-28728463,US,USD,Net30,ap@central.com,Active,2022-08-03
+LV0004,Heredia Precision Machining,,US,USD,Net30,ap@heredia.com,Active,2021-08-15
+LV0005,SkyWire Harness Corp,US-66629388,US,USD,Net30,ap@skywire.com,Active,2015-05-03
+LV0006,Lumen Battery Systems,US-22575562,US,USD,N30,ap@lumen.com,Active,2017-08-10
+LV0007,Orbital Test Labs,US-77827638,US,USD,Net15,ap@orbital.com,Active,2015-04-19
+LV0008,Cartago Metals S.A.,CR-85329037,CR,CRC,Net30,ap@cartago.com,Active,2023-01-11
+LV0009,BlueRidge Electronics,US-97226012,US,USD,Net15,ap@blueridge.com,Active,2019-09-15
+LV0010,Vector Sensors Inc,US-39587039,US,USD,NET 30,ap@vector.com,Active,2021-08-10
+LV0011,NorthStar Logistics,US-47338124,US,USD,Net30,ap@northstar.com,Active,2023-07-06
+LV0012,Andes Titanium Ltd,US-31429110,US,USD,Net60,ap@andes.com,Active,2018-10-25
+LV0013,Quantum PCB Works,US-47295260,US,USD,2% 10 Net 30,ap@quantum.com,Active,2017-05-31
+LV0014,Alpine Coatings GmbH,DE-55176955,DE,EUR,Net30,ap@alpine.com,Active,2016-01-15
+LV0015,Golfo Industrial Services,US-60992979,US,COL,Net30,ap@golfo.com,Active,2019-01-10
+LV0016,Redwood Software Tools,US-56164955,US,USD,Net15,ap@redwood.com,Active,2017-12-19
+LV0017,Ironclad Tooling Co,US-15831819,US,USD,Net60,ap@ironclad.com,Active,2021-01-05
+LV0018,Summit Calibration Services,,US,USD,Net60,ap@summit.com,Active,2015-11-19
+LV0019,Coastal Freight CR,CR-84093639,CR,CRC,Net45,ap@coastal.com,Active,2024-04-20
+LV0020,Nimbus Cloud Services,US-94374605,US,USD,Net15,ap@nimbus.com,Active,2024-12-05
+LV0021,Precision Bearings USA,US-58537831,US,USD,Net15,accounts.precisionbearings,Active,2017-02-26
+LV0022,Tropic Packaging S.A.,CR-19335534,CR,CRC,Net30,ap@tropic.com,Active,2022-06-01
+LV0023,Helix Motors Inc,US-40587988,US,USD,Net45,ap@helix.com,Active,2015-11-23
+LV0024,Silver Peak Alloys,US-41244663,US,USD,Net30,ap@silver.com,Active,2019-04-06
+LV0025,Clearview Optics,US-47308985,US,USD,Net60,ap@clearview.com,Active,2022-02-16
+LV0026,Atlas Hydraulics,US-58966946,US,USD,Net30,,Active,2019-02-25
+LV0027,Pura Vida Office Supply,US-57683626,US,USD,Net30,ap@pura.com,Active,2022-07-08
+LV0028,Falcon Adhesives,US-45833156,US,USD,Net30,ap@falcon.com,Active,2021-10-31
+LV0029,Meridian Thermal Solutions,US-95225343,US,USD,Net30,ap@meridian.com,Active,2020-12-27
+LV0030,Keystone Safety Equipment,US-42857966,US,USD,Net30,ap@keystone.com,Active,2020-03-08
+LV0031,Crescent Cable Assemblies,US-60929647,US,USD,Net45,ap@crescent.com,Blocked,2022-03-06
+LV0032,Volcan Engineering Consultants,US-84752529,US,USD,Net30,ap@volcan.com,Active,2022-09-05
+LV0033,Evergreen Facility Services,US-53524491,US,USD,Net30,ap@evergreen.com,Active,2017-07-27
+LV0034,Zenith Test Equipment,US-14308421,US,USD,Net45,ap@zenith.com,Active,2019-07-02
+LV0035,Granite Composites Inc,US-45935572,US,USD,Net30,ap@granite.com,Active,2017-05-14
+LV0036,Lighthouse IT Services,US-86125617,US,USD,Net45,ap@lighthouse.com,Active,2017-05-20
+LV0037,Monarch Plastics,US-97971488,US,USD,Net60,ap@monarch.com,Active,2019-06-09
+LV0038,Brightline Relays,US-96282117,US,USD,Net60,ap@brightline.com,Active,2016-08-08
+LV0039,Cobalt Power Electronics,US-45551614,US,USD,Net30,ap@cobalt.com,Active,2017-10-07
+LV0040,Sierra Fastening Systems,US-85345555,US,USD,Net15,ap@sierra.com,Active,2017-12-12
+LV0041,"AEROTECH FASTENERS, LLC.",US-46913810,US,USD,Net30,ap@aerotech.com,Active,2025-03-10
+LV0042,Blue Ridge Electronics,US-97226012,US,USD,Net15,ap@blueridge.com,Active,2025-06-21
+LV0043,Orbital Test Labs,US-11112222,US,USD,Net15,ap@orbital.com,Active,2025-08-02
