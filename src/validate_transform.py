@@ -153,6 +153,21 @@ def write_d365_files(golden,issues):
     blocking.to_csv(config.EXCEPTIONS_DIR / "blocking_issues_for_review.csv", index=False)
     print(f"[d365] {len(entity)} vendors ready | {len(golden) - len(entity)} sent to review")
     return golden
+
+
+def run_validation(data):
+    issues =[]
+    vendors = validate_vendors(data["stg_vendor"].copy(),issues)
+    vendors = dedupe_by_taxid(vendors, issues)
+    flag_name_duplicates(vendors, issues)
+    golden = build_golden(vendors)
+    xref = build_xref(vendors, golden)
+    golden = write_d365_files(golden, issues)
+    return {
+        "vendor_golden": golden,
+        "vendor_xref": xref,
+        "dq_issues": pd.DataFrame(issues),
+    }
     
 
 
@@ -163,13 +178,6 @@ if __name__ == "__main__":
     # print(normalize_name("BlueRidge Electronics"))
     # print(normalize_name("Coastal Freight CR"))
     data = extract_all()
-    issues = []
-    vendors = validate_vendors(data["stg_vendor"].copy(), issues)
-    vendors = dedupe_by_taxid(vendors, issues)
-    flag_name_duplicates(vendors, issues)
-    print(pd.DataFrame(issues))
-    golden = build_golden(vendors)
-    xref = build_xref(vendors, golden)
-    print(len(vendors), "vendors ->", len(golden), "golden records")
-    print(len(xref), "rows in xref")
-    golden = write_d365_files(golden, issues)
+    governed = run_validation(data)
+    for name, df in governed.items():
+        print(name, len(df))
