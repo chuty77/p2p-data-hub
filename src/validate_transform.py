@@ -7,7 +7,9 @@ import re
 import pandas as pd 
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 200)
+
 EMAIL_RE = re.compile(r"^[\w.+-]+@[\w-]+\.[\w.]+$")
+SUFFIXES= r"\b(LLC|INC|CORP|CO|LTD|GMBH|S\.?A\.?)\b"
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 import config
@@ -40,6 +42,11 @@ def add_issue (issue, rule_id, description, severity, entity, record_key,
         "IsBlocking": blocking,
         "DetectedAt": datetime.now().isoformat(timespec="seconds")
     })
+
+def normalize_name(name):
+    n = re.sub(SUFFIXES, "", name.upper())
+    return re.sub(r"[^A-Z0-9]","",n)
+
 
 
 
@@ -79,7 +86,6 @@ def dedupe_by_taxid(vendors, issues):
     vendors= vendors.sort_values("CreatedDate")
     vendors["SurvivorCode"]= vendors["VendorCode"]
     with_tax= vendors[vendors["TaxID"].str.strip() != ""]
-
     for tax_id, group in with_tax.groupby("TaxID"):#group: una tabla pequeña con los proveedores que tienen ese Tax ID.
         if len(group) > 1:
             survivor = group.iloc[0]["VendorCode"] #.iloc[0]: toma la primera fila del grupo,
@@ -97,13 +103,27 @@ def dedupe_by_taxid(vendors, issues):
     return vendors
 
 
+def flag_name_duplicates(vendors, issues):
+    survivors = vendors[vendors["VendorCode"] == vendors["SurvivorCode"]].copy()
+    survivors["NormName"] = survivors["VendorName"].map(normalize_name)
+
+    for norm_name, group in survivors.groupby("NormName"):
+        if len(group) > 1:
+            group = group.sort_values("CreatedDate")
+            first = group.iloc[0]
+            for _, row in group.iloc[1:].iterrows():
+                add_issue(issues, "VEN-006", "Possible duplicate (same name, different Tax ID)",
+                    "Medium", "Vendor", row["VendorCode"], "VendorName",
+                    f'{row["VendorName"]} (matches {first["VendorCode"]})')
+
+
 
 def build_golden(vendors):
     golden= vendors[vendors["VendorCode"]== vendors["SurvivorCode"]]
     golden= golden.sort_values("VendorCode").reset_index(drop=True)
     golden["VendorAccount"] = [f"VEND-{i:05d}" for i in range(1, len(golden) + 1)]
     return golden
-   
+
 
 def build_xref(vendors,golden):
 
@@ -118,15 +138,18 @@ def build_xref(vendors,golden):
 
 
 if __name__ == "__main__":
+    # print(normalize_name("AeroTech Fasteners LLC"))
+    # print(normalize_name("AEROTECH FASTENERS, LLC."))
+    # print(normalize_name("Blue Ridge Electronics"))
+    # print(normalize_name("BlueRidge Electronics"))
+    # print(normalize_name("Coastal Freight CR"))
     data = extract_all()
     issues = []
-    #validate_vendors(data["stg_vendor"], issue)
-    vendors= validate_vendors(data["stg_vendor"].copy(),issues)
+    vendors = validate_vendors(data["stg_vendor"].copy(), issues)
     vendors = dedupe_by_taxid(vendors, issues)
+    flag_name_duplicates(vendors, issues)
     print(pd.DataFrame(issues))
     golden = build_golden(vendors)
-    print(len(vendors), "vendors ->", len(golden), "golden records")
     xref = build_xref(vendors, golden)
+    print(len(vendors), "vendors ->", len(golden), "golden records")
     print(len(xref), "rows in xref")
-    print(xref[xref["LegacyVendorCode"].isin(["LV0002", "LV0041", "LV0009", "LV0042"])])
-    
