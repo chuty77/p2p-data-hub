@@ -137,6 +137,25 @@ def build_xref(vendors,golden):
     return xref
 
 
+def write_d365_files(golden,issues):
+    config.D365_IMPORT_DIR.mkdir(parents=True,exist_ok=True)
+    config.EXCEPTIONS_DIR.mkdir(parents=True,exist_ok=True)
+    issues_df = pd.DataFrame(issues)
+    blocking= issues_df[issues_df["IsBlocking"]==True]
+    blocking_codes = set(blocking["RecordKey"])
+    golden["MigrationStatus"]= golden["VendorCode"].map(
+        lambda code: "Exception" if code in blocking_codes else "Ready")
+    ready = golden[golden["MigrationStatus"]== "Ready"]
+    entity = pd.DataFrame({
+        "VENDORACCOUNTNUMBER" : ready["VendorAccount"],
+    })
+    entity.to_csv(config.D365_IMPORT_DIR / "Vendors_V2_import.csv", index=False)
+    blocking.to_csv(config.EXCEPTIONS_DIR / "blocking_issues_for_review.csv", index=False)
+    print(f"[d365] {len(entity)} vendors ready | {len(golden) - len(entity)} sent to review")
+    return golden
+    
+
+
 if __name__ == "__main__":
     # print(normalize_name("AeroTech Fasteners LLC"))
     # print(normalize_name("AEROTECH FASTENERS, LLC."))
@@ -153,3 +172,4 @@ if __name__ == "__main__":
     xref = build_xref(vendors, golden)
     print(len(vendors), "vendors ->", len(golden), "golden records")
     print(len(xref), "rows in xref")
+    golden = write_d365_files(golden, issues)
