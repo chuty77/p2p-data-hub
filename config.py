@@ -24,6 +24,10 @@ API_BASE_URL = F"http://{API_HOST}:{API_PORT}/data"
 #  la parte que se repite siempre. Después, en el código,
 #  le agregas el nombre de lo que quieras pedir, 
 # por ejemplo PurchaseOrderLines_page1.json. Así escribes la base una sola vez.
+# Database (SQL Server)
+SQL_SERVER = r"localhost\SQLEXPRESS"
+SQL_DATABASE = "P2PDataHub"
+ODBC_DRIVER = "ODBC Driver 18 for SQL Server"
 
 
 # Business rules (owned by Finance, documented in the data management plan)
