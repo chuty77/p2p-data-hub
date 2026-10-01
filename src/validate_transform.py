@@ -1,6 +1,5 @@
 import sys
-from datetime import datetime # trae la herramienta para trabajar con fechas y horas.
-#  La vas a usar para anotar cuándo se detectó cada problema.
+from datetime import datetime 
 from pathlib import Path
 import re
 
