@@ -49,7 +49,7 @@ PO-25088	2	LV9999
 
 
 /*
-Ejercicio 3: Órdenes con item inexistente
+Órdenes con item inexistente
 Requerimiento: igual que el anterior, pero para items: líneas de órdenes cuyo 
 ItemNumber no existe en el maestro de items.
 Resultado esperado: 1 línea.
@@ -67,7 +67,8 @@ PO-25040	1	ITM-9999
 */
 
 /*
-Ejercicio 4: La xref en acción
+
+La xref en acción
 Requerimiento: para los proveedores que se unieron por Tax ID, mostrar el código viejo,
 la cuenta nueva de D365 a la que se traduce, y cuántas líneas de órdenes de compra tenía cada uno.
 Pistas: necesitas unir órdenes con la xref, filtrar por el tipo de equivalencia y agrupar.

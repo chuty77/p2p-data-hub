@@ -16,18 +16,11 @@ import config
 
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 200)
-# display.max_columns, None: le dice a pandas "no hay límite de columnas, muéstralas todas".
-# display.width, 200: le da más espacio horizontal para imprimir, para que no parta la tabla en pedazos.
 
-from src.extract import extract_all #trae la función que construiste en B4. 
-#Así, este archivo puede pedir los datos sin repetir el código de extracción.
+from src.extract import extract_all #
 
 
 
-
-# La función para registrar problemas: def add_issue ():
-# Qué hace en general: recibe los datos de un problema, los arma como un diccionario y
-# los agrega a una lista llamada issues. Cada problema queda como una fila del registro.
 def add_issue (issue, rule_id, description, severity, entity, record_key, 
                 field, bad_value, status="Open", blocking=True):
     issue.append({
@@ -50,10 +43,7 @@ def normalize_name(name):
 
 
 
-# Recibe dos cosas: la tabla de proveedores que vas a revisar, 
-# y la lista de problemas donde vas a anotar lo que encuentres.
-# Por qué una función para todos los proveedores: aquí vas a ir agregando las demás reglas de 
-# proveedores (moneda, correo, términos de pago). Todas juntas en un solo lugar.
+
 
 def validate_vendors(vendors,issues):
     for idx, row in vendors.iterrows():
@@ -86,18 +76,11 @@ def dedupe_by_taxid(vendors, issues):
     vendors= vendors.sort_values("CreatedDate")
     vendors["SurvivorCode"]= vendors["VendorCode"]
     with_tax= vendors[vendors["TaxID"].str.strip() != ""]
-    for tax_id, group in with_tax.groupby("TaxID"):#group: una tabla pequeña con los proveedores que tienen ese Tax ID.
+    for tax_id, group in with_tax.groupby("TaxID"):
         if len(group) > 1:
-            survivor = group.iloc[0]["VendorCode"] #.iloc[0]: toma la primera fila del grupo,
-#por posición. El 0 significa "la primera", porque en Python se cuenta desde cero.
-# Diferencia entre .iloc y .loc: .iloc busca por posición ("la primera fila"); 
-# .loc busca por condición ("la fila donde el código es LV0041").
-# Vas a usar las dos en esta función.
+            survivor = group.iloc[0]["VendorCode"] 
             for code in group["VendorCode"].iloc[1:]:
-#.iloc[1:]: toma desde la segunda fila en adelante. El 1: significa "desde la posición 1 hasta el final".
                 vendors.loc[vendors["VendorCode"]==code, "SurvivorCode"] = survivor
-#en la tabla completa, busca la fila del duplicado y cambia su SurvivorCode 
-# por el código del survivor. Así, LV0041 queda apuntando a LV0002.
                 add_issue(issues, "VEN-005", "Duplicate vendor (same Tax ID)", "High", "Vendor",
                 code, "TaxID", tax_id, status=f"Merged into {survivor}", blocking=False)
     return vendors

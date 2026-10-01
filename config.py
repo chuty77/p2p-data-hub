@@ -1,13 +1,7 @@
 """Central configuration for the P2P Data Hub pipeline."""
 
 from pathlib import Path
-# __file__: es una variable especial que Python llena solo. 
-# Contiene la ubicación del archivo que se está ejecutando, en este caso config.py.
-# Path(__file__): convierte esa ubicación en un objeto Path para poder trabajar con ella.
-# .resolve(): la convierte en la ruta completa y exacta, 
-# por ejemplo C:\Users\Paulo\Documents\p2p-data-hub\config.py.
-# .parent: sube un nivel, es decir, se queda con la carpeta 
-# donde está el archivo: C:\Users\Paulo\Documents\p2p-data-hub.
+
 BASE_DIR = Path(__file__).resolve().parent
 SOURCE_DIR= BASE_DIR / "data"/ "source"
 MOCK_API_DIR= BASE_DIR / "mock_api"
@@ -20,11 +14,6 @@ SQL_DIR = BASE_DIR / "sql"
 
 API_HOST, API_PORT= "localhost", 8000
 API_BASE_URL = F"http://{API_HOST}:{API_PORT}/data" 
-#Por qué termina en /data y no en un archivo: porque es la base,
-#  la parte que se repite siempre. Después, en el código,
-#  le agregas el nombre de lo que quieras pedir, 
-# por ejemplo PurchaseOrderLines_page1.json. Así escribes la base una sola vez.
-# Database (SQL Server)
 SQL_SERVER = r"localhost\SQLEXPRESS"
 SQL_DATABASE = "P2PDataHub"
 ODBC_DRIVER = "ODBC Driver 18 for SQL Server"
