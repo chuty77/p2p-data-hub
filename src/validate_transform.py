@@ -1,3 +1,4 @@
+import logging
 import sys
 from datetime import datetime 
 from pathlib import Path
@@ -13,10 +14,12 @@ SUFFIXES= r"\b(LLC|INC|CORP|CO|LTD|GMBH|S\.?A\.?)\b"
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 import config
 
+logger = logging.getLogger(__name__)
+
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 200)
 
-from src.extract import extract_all #
+from src.extract import extract_all 
 
 
 
@@ -128,12 +131,13 @@ def write_d365_files(golden,issues):
     golden["MigrationStatus"]= golden["VendorCode"].map(
         lambda code: "Exception" if code in blocking_codes else "Ready")
     ready = golden[golden["MigrationStatus"]== "Ready"]
+    review_count = (golden["MigrationStatus"] == "Exception").sum()
     entity = pd.DataFrame({
         "VENDORACCOUNTNUMBER" : ready["VendorAccount"],
     })
     entity.to_csv(config.D365_IMPORT_DIR / "Vendors_V2_import.csv", index=False)
     blocking.to_csv(config.EXCEPTIONS_DIR / "blocking_issues_for_review.csv", index=False)
-    print(f"[d365] {len(entity)} vendors ready | {len(golden) - len(entity)} sent to review")
+    logger.info("D365 files: %d vendors ready | %d sent to review", len(ready), review_count)
     return golden
 
 
@@ -145,6 +149,7 @@ def run_validation(data):
     golden = build_golden(vendors)
     xref = build_xref(vendors, golden)
     golden = write_d365_files(golden, issues)
+    logger.info("Validation done: %d golden vendors, %d DQ issues", len(golden), len(issues))
     return {
         "vendor_golden": golden,
         "vendor_xref": xref,
@@ -159,6 +164,8 @@ if __name__ == "__main__":
     # print(normalize_name("Blue Ridge Electronics"))
     # print(normalize_name("BlueRidge Electronics"))
     # print(normalize_name("Coastal Freight CR"))
+    from src.logging_setup import setup_logging
+    setup_logging()
     data = extract_all()
     governed = run_validation(data)
     for name, df in governed.items():

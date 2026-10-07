@@ -2,7 +2,7 @@ use P2PDataHub
 go 
 
 
-drop table if exists fact_po_line
+drop table if exists fact_po_line;
 
 select 
     CONCAT(p.PurchaseOrderNumber, '-', p.LineNumber) as  POLineKey,
