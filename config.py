@@ -13,6 +13,7 @@ EXCEPTIONS_DIR = BASE_DIR / "output" / "exceptions"
 POWERBI_DIR = BASE_DIR / "output" / "powerbi"
 SQL_DIR = BASE_DIR / "sql"
 LOG_DIR = BASE_DIR / "logs"
+REPORTS_DIR=  BASE_DIR / "output" / "report"
 
 
 API_HOST, API_PORT= "localhost", 8000
