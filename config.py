@@ -1,6 +1,8 @@
 """Central configuration for the P2P Data Hub pipeline."""
-
+import os
 from pathlib import Path
+
+SQL_SERVER = os.getenv("P2P_SQL_SERVER", r"localhost\SQLEXPRESS")
 
 BASE_DIR = Path(__file__).resolve().parent
 SOURCE_DIR= BASE_DIR / "data"/ "source"
