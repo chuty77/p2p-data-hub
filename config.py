@@ -10,6 +10,7 @@ D365_IMPORT_DIR = BASE_DIR / "output" / "d365_import"
 EXCEPTIONS_DIR = BASE_DIR / "output" / "exceptions"
 POWERBI_DIR = BASE_DIR / "output" / "powerbi"
 SQL_DIR = BASE_DIR / "sql"
+LOG_DIR = BASE_DIR / "logs"
 
 
 API_HOST, API_PORT= "localhost", 8000

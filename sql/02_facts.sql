@@ -1,5 +1,5 @@
 use P2PDataHub
-go
+go 
 
 
 drop table if exists fact_po_line

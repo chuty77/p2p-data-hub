@@ -1,6 +1,6 @@
 RuleID,RuleDescription,Severity,Entity,RecordKey,FieldName,BadValue,Status,IsBlocking,DetectedAt
-VEN-001,Missing Tax ID,High,Vendor,LV0004,TaxID,,Open,True,2026-09-28T02:09:24
-VEN-004,Non-standard payment terms,Medium,Vendor,LV0013,PaymentTerms,2% 10 Net 30,Open,True,2026-09-28T02:09:24
-VEN-002,Invalid currency code,High,Vendor,LV0015,Currency,COL,Open,True,2026-09-28T02:09:24
-VEN-001,Missing Tax ID,High,Vendor,LV0018,TaxID,,Open,True,2026-09-28T02:09:24
-VEN-006,"Possible duplicate (same name, different Tax ID)",Medium,Vendor,LV0043,VendorName,Orbital Test Labs (matches LV0007),Open,True,2026-09-28T02:09:24
+VEN-001,Missing Tax ID,High,Vendor,LV0004,TaxID,,Open,True,2026-10-06T23:54:54
+VEN-004,Non-standard payment terms,Medium,Vendor,LV0013,PaymentTerms,2% 10 Net 30,Open,True,2026-10-06T23:54:54
+VEN-002,Invalid currency code,High,Vendor,LV0015,Currency,COL,Open,True,2026-10-06T23:54:54
+VEN-001,Missing Tax ID,High,Vendor,LV0018,TaxID,,Open,True,2026-10-06T23:54:54
+VEN-006,"Possible duplicate (same name, different Tax ID)",Medium,Vendor,LV0043,VendorName,Orbital Test Labs (matches LV0007),Open,True,2026-10-06T23:54:54

@@ -27,6 +27,7 @@ engine= create_engine(url)
 fact_po = pd.read_sql("SELECT * FROM fact_po_line", engine)
 dim_vendor= pd.read_sql("SELECT * FROM dim_vendor", engine)
 dim_item = pd.read_sql("SELECT * FROM dim_item", engine)
+facts= pd.read_sql("Select * from facts", engine)
 
 
 # %% Exploración
