@@ -13,7 +13,7 @@ def setup_logging(job_name="p2p_pipeline"):
     config.LOG_DIR.mkdir(parents="true", exist_ok=True)
     log_file = config.LOG_DIR / f"{job_name}_{datetime.now():%Y%m%d}.log"
     formatter= logging.Formatter(
-        "%(asctime)s | %(levelname)-8s | %(name)s | %(messages)s",
+        "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S"
     )
     file_handler= logging.FileHandler(log_file, encoding="utf-8")
@@ -21,5 +21,5 @@ def setup_logging(job_name="p2p_pipeline"):
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setFormatter(formatter)
     root.setLevel(logging.INFO)
-    root.handler(file_handler)
+    root.addHandler(file_handler)
     root.addHandler(console_handler)

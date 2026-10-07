@@ -1,12 +1,14 @@
-import pandas as pd
-import requests 
+import logging
 import sys 
-
 from pathlib import Path
+
+import pandas as pd
+import requests
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 import config
 
+logger = logging.getLogger(__name__)
 
 def fetch_odata(entity): 
     url = f"{config.API_BASE_URL}/{entity}_page1.json" 
@@ -19,14 +21,14 @@ def fetch_odata(entity):
         rows.extend(payload["value"]) #
         url = payload.get("@odata.nextLink")
         pages += 1
-    print(f"[extract] {entity}: {len(rows)} rows in {pages} page(s)")
+    logger.info("API %s: %d rows in %d page(s)", entity, len(rows), pages)
     return pd.DataFrame(rows) 
 
 
 def read_legacy_csv(name):
     path = config.SOURCE_DIR / f"{name}.csv"
     df= pd.read_csv(path, dtype=str, keep_default_na=False)
-    print(f"[extract] CSV {name}: {len(df)} rows")
+    logger.info("CSV %s: %d rows", name, len(df))
     return df
 
 def extract_all():
@@ -42,7 +44,7 @@ def extract_all():
 
 
 if __name__ == "__main__":
-    data= extract_all()
-    for name, df in data.items():
-        print(name,len(df))
+    from src.logging_setup import setup_logging
+    setup_logging()
+    extract_all()
         
