@@ -128,12 +128,12 @@ Built with CTEs and window functions: `ROW_NUMBER() OVER (PARTITION BY ...)` to 
 ### Three-Way Match Control
 *Which invoices should not be paid automatically?* Match rate, amount on hold, price variance and duplicate exposure, with the list of invoices on hold for Accounts Payable.
 
-![Three-Way Match Control](images/02_three_way_match.png)
+![Three-Way Match Control](images/02_three_way_match.PNG)
 
 ### Spend Analysis
 *Where is the money going?* Monthly spend, top vendors, and spend by category and site.
 
-![Spend Analysis](images/03_spend_analysis.png)
+![Spend Analysis](images/03_spend_analysis.PNG)
 
 ---
 
