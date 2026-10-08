@@ -123,12 +123,12 @@ Built with CTEs and window functions: `ROW_NUMBER() OVER (PARTITION BY ...)` to 
 ### Master Data Readiness
 *Which vendors are ready to migrate to D365?* Readiness KPIs, data quality issues by rule and severity, and the list of blocking issues to resolve.
 
-![Master Data Readiness](images/01_master_data_readiness.png)
+![Master Data Readiness](master_data_readiness.PNG)
 
 ### Three-Way Match Control
 *Which invoices should not be paid automatically?* Match rate, amount on hold, price variance and duplicate exposure, with the list of invoices on hold for Accounts Payable.
 
-![Three-Way Match Control](images/02_three_way_match.PNG)
+![Three-Way Match Control](Three-Way Match Control.PNG)
 
 ### Spend Analysis
 *Where is the money going?* Monthly spend, top vendors, and spend by category and site.
